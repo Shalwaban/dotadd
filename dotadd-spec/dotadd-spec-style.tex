@@ -3,6 +3,45 @@
 \usepackage{tcolorbox}
 \usepackage{minted}
 
+\DeclareNewSectionCommand[
+  style=section,
+  counterwithin=subsubsection,
+  afterskip=1.5ex plus .2ex,
+  beforeskip=3.25ex plus 1ex minus .2ex,
+  afterindent=false,
+  level=\paragraphnumdepth,
+  tocindent=6em,
+  tocnumwidth=5em
+]{subsubsubsection}
+\setcounter{secnumdepth}{\subsubsubsectionnumdepth}
+\setcounter{tocdepth}{\subparagraphtocdepth}
+
+\DeclareNewSectionCommand[
+  style=section,
+  counterwithin=subsubsubsection,
+  afterskip=1.5ex plus .2ex,
+  beforeskip=3.25ex plus 1ex minus .2ex,
+  afterindent=false,
+  level=\paragraphnumdepth,
+  tocindent=8em,
+  tocnumwidth=5em
+]{subsubsubsubsection}
+\setcounter{secnumdepth}{\subsubsubsubsectionnumdepth}
+\setcounter{tocdepth}{\subparagraphtocdepth}
+
+\DeclareNewSectionCommand[
+  style=section,
+  counterwithin=subsubsubsubsection,
+  afterskip=1.5ex plus .2ex,
+  beforeskip=3.25ex plus 1ex minus .2ex,
+  afterindent=false,
+  level=\paragraphnumdepth,
+  tocindent=8em,
+  tocnumwidth=5em
+]{subsubsubsubsubsection}
+\setcounter{secnumdepth}{\subsubsubsubsubsectionnumdepth}
+\setcounter{tocdepth}{\subparagraphtocdepth}
+
 % ------------------------------------------------------------------------- %
 %                       font and element-styles setup                       %
 % ------------------------------------------------------------------------- %
