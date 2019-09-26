@@ -8,7 +8,7 @@ For this we offer two solutions:
 * a **toolkit** for conversion between supported formats
 
 Supporting these formats:
-* **IEM AllRAD**
+* **IEM**
 * **AmbiX**
 * **ICST**
 * **ambdec**
@@ -23,8 +23,6 @@ To be useful in a variety of software solutions we offer libraries in different 
 * [**JavaScript**][rep_lib_js]
 * [**Python**][rep_lib_py]
 
-(`Overview` of Benefits & Drawbacks)
-
 
 **Toolkit**
 --------
@@ -38,7 +36,7 @@ If running commands in an Unix-shell is the best way for you then use the **.add
 
 A convenient method to use the .add-format is the **.add-browser application**. Use drag-and-drop and a few clicks to configurate what you want and achieve a fast result with no need to install anything.
 
-You can find it here: [https://DotADD.url/wepapp][rep_tool_browser]
+You can find it here: [coming soon]
 
 
 ### [.ADD-extractor VST][rep_tool_extractor]
@@ -49,12 +47,9 @@ Since non-dynamic decoders have a decoding matrix that is pre-calculated and act
 Further information
 --------
 
-.ADD was developed by students of the [University of Applied Sciences Darmstadt][url_hda]
+.ADD was developed by students of the [University of Applied Sciences Darmstadt](https://h-da.de/ "h_da - University of Applied Sciences Darmstadt")
 
-Following has been used for development: 
-
-**Authors:** *Gabriel Arlauskas, Jonas Ohland, Henning Schaar*
-
+Feel free to contribute!
 
 
 
@@ -70,6 +65,3 @@ Following has been used for development:
 [rep_tool_console]:https://github.com/smp-3d/dotadd.tools	".ADD-console tool"
 [rep_tool_browser]:https://github.com/smp-3d/dotadd-online-converter	".ADD-browser app"
 [rep_tool_extractor]:https://github.com/smp-3d/dotadd-dec-ripper	".ADD-extractor VST"
-
-[url_hda]:https://h-da.de/ "h_da - University of Applied Sciences"
-
