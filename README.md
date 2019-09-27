@@ -8,11 +8,11 @@ For this we offer two solutions:
 * a **toolkit** for conversion between supported formats
 
 Supporting these formats:
-* **IEM**
-* **AmbiX**
-* **ICST**
-* **ambdec**
-* **CSV**
+* [**IEM SimpleDecoder and AllRAD Decoder**](https://plugins.iem.at/)
+* [**ambiX**](http://www.matthiaskronlachner.com/?p=2015)
+* [**ICST ambidecode~**](https://www.zhdk.ch/forschung/icst/software-downloads-5379/downloads-ambisonics-externals-for-maxmsp-5381)
+* [**ambdec**](http://kokkinizita.linuxaudio.org/linuxaudio/index.html)
+* [**CSV**](https://en.wikipedia.org/wiki/Comma-separated_values)
 
 Library
 --------
@@ -22,6 +22,7 @@ To be useful in a variety of software solutions we offer libraries in different 
 * [**C++**][rep_lib_cpp]
 * [**JavaScript**][rep_lib_js]
 * [**Python**][rep_lib_py]
+* **Matlab** (coming soon)
 
 
 **Toolkit**
