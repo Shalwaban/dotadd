@@ -28,7 +28,7 @@ To be useful in a variety of software solutions we offer libraries in different 
 **Toolkit**
 --------
 
-### [.ADD-console tool][rep_tool_console]
+### [dotaddtool][rep_tool_console]
 
 If running commands in an Unix-shell is the best way for you then use the **.add-console tool** which gives you the ability to read and write .add-files or convert between different formats for Ambisonics decoder matrices. 
 
